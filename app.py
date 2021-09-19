@@ -53,7 +53,7 @@ def predict():
         else:
             return render_template('Insurance.html',prediction_text="Insurance Premium expense is {}".format(output))
     else:
-        return render_template('Isurence.html')
+        return render_template('Isurance.html')
 if __name__=="__main__":
     app.run(debug=True)
 
