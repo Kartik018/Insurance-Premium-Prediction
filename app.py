@@ -49,7 +49,7 @@ def predict():
         prediction=model.predict([[age,bmi,children,sex_male,smoker_yes,region_northwest,region_southeast,region_southwest]]) 
         output=round(prediction[0],2)
         if output<0:
-            return render_template('Insurance.html',prediction_texts="Sorry can't predict")
+            return render_template('Insurance.html',prediction_text="Sorry can't predict")
         else:
             return render_template('Insurance.html',prediction_text="Insurance Premium expense is {}".format(output))
     else:
