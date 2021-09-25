@@ -5,6 +5,7 @@ The main objective of the project is to create a web application which takes som
 
 A glance of the web application is furnished below:
 
-<a href="https://drive.google.com/file/d/1lVVQ3h38sEGjom9VUcYHZ125fvi1CYZo/view?usp=sharing"></a>
+![gif](https://user-images.githubusercontent.com/48655681/134777759-50370c7e-9ba9-431d-a420-74d027c8274b.gif)
+
 
 <a href="https://insurance-premium-prediction-a.herokuapp.com/">View Deploymemnt</a>
