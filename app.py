@@ -51,7 +51,7 @@ def predict():
         if output<0:
             return render_template('Insurance.html',prediction_text="Sorry can't predict")
         else:
-            return render_template('Insurance.html',prediction_text="Insurance Premium expense is {}".format(output))
+            return render_template('Insurance.html',prediction_text="Your Insurance Premium should be near about: ${}".format(output))
     else:
         return render_template('Insurance.html')
 if __name__=="__main__":
